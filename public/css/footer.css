@@ -1,0 +1,33 @@
+footer {
+    text-align: center;
+    padding: 0 0 30px;
+}
+footer li {
+    display: inline;
+    margin: 0 15px;
+}
+footer ul:nth-child(1) a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+}
+footer ul:nth-child(2) {
+    margin: 20px 0;
+}
+footer ul:nth-child(2) a {
+    color: #282626;
+}
+footer li a:hover {
+    color: #e00918;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+footer h4 {
+    color: #aaa7a7;
+    font-size: 14px;
+    font-weight: 300;
+}

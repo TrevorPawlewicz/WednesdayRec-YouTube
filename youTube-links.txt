@@ -1,0 +1,137 @@
+TLH: Say I’ll Be Gone (live):
+https://youtu.be/bOyvbaOP4Iw
+
+TLH: Thank You video:
+https://youtu.be/4LSSFyDX8qo
+
+TLH: Making of Thank You video:
+https://youtu.be/IvcOi8C6SrA
+
+The Little Heroes - We all get to an end (Live)
+https://youtu.be/Nmi9MpU88TA
+
+TLH: Pastcards Sent West (audio):
+https://youtu.be/zmo-S8Ea0Q4
+
+TLH: On Your Way (audio):
+https://youtu.be/-pn4f88zsCU
+
+TLH: We All Get To an End (audio):
+https://youtu.be/hezAvhhp3K8
+
+TLH: What You wanted (audio):
+https://youtu.be/HLOtDtVNGzs
+
+TLH: Common Ground:
+https://youtu.be/JCjw4V3ZeyQ
+
+TLH: Semptember Falls (single audio):
+https://youtu.be/rEty7fPrM0w
+
+TLH: Bridges & Tunnels (single audio):
+https://youtu.be/WJxj--GeMws
+
+TLH: After All:
+https://youtu.be/mUHCyF2mj68
+
+Cinematic Americana album:
+https://www.youtube.com/playlist?list=PLd7J7W69d2_pBrDHHyXyrCZG-HG21z7Vr
+
+—————————————————————————————————————
+Ohe Hundred Paces:
+
+'Versions of you' Official music video:
+https://youtu.be/5y0gu7-5mfU?list=PLXWrAjCKfSI_D8SxCgniEKovgzsKXceIr
+
+The Reckoning:
+https://youtu.be/ARjT4KYdULA
+
+The Rise and Fall:
+https://youtu.be/or_hYMFVOO8
+——————————————————————————————
+Fire In The Radio
+
+"Telemetry" Trailer 
+https://youtu.be/hlWs0A2V4z0
+3479 views Jan. ’15
+
+Telemetry album playlist
+https://youtu.be/y1gSAu9ycQs?list=PLv67Ev8LGzR5lwT_Ge4OyRwBo3o1yqtJg
+59 views June ’15
+
+Episode 401 "Crickets"
+https://youtu.be/QBX3nPpb1yY
+6526 views Mar. ’15
+
+
+
+————————————————————
+Blues and Greys
+
+Secrets to Shadows (Live)
+https://youtu.be/wb48yzXN0Ss
+2315 views Dec.13
+
+"Bright Lights" (Live at 92.9 KJEE)
+https://youtu.be/2PK2G6E31fg
+1008 views Aug.14
+
+"Black Spring" (Live at 92.9 KJEE)
+https://youtu.be/4BwxQz5MLNg
+442 views June.15
+
+
+
+
+social media website. 
+Involves Node.js, Express.js, Mongoose, MongoDB, EJS, Bootstrap
+https://my-philly.herokuapp.com/
+
+
+My template for a company wesite landing page. Mostly Boostrap. Links not functional
+https://trevs-company-landing-page.herokuapp.com/
+
+
+Basic chat site. 
+Invovles Socket.io, Node.js, Express.js, Mongoose, EJS, Bootstrap
+https://trevs-chat-app.herokuapp.com/
+
+
+Landing promo page for an Ionic app I was working on. Navbar not functional.
+https://tentacle-landing-page.herokuapp.com/
+
+
+Simple visual and audible site for key strokes.
+https://trev-sights-sounds.herokuapp.com/
+
+
+
+
+personal website (needs to be updated as of the moment):
+http://trevor-hq.rocks/
+
+
+SYGNS:
+Project I collaberated on with a friend involving having the public help delineate parking restictions.
+Involves Node.js, Express.js, Mongoose, MongoDB, EJS, Bootstrap, Google maps API and Geolocation.
+https://powerful-stream-2437.herokuapp.com/
+
+
+
+MongoDB for NodeJS Developers course completion cert:
+http://university.mongodb.com/course_completion/a5945a03b4e14342b9f611e0a8126b94
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

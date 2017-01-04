@@ -1,0 +1,223 @@
+body {
+    font-family: 'Open Sans';
+    color: #000;
+    overflow-x: hidden;
+}
+ul li {
+    list-style-type: none;
+}
+p {
+    line-height: 24px;
+    font-weight: 300;
+}
+a {
+    text-decoration: none;
+    color: #0000cc;
+}
+a:hover {
+    color: #e00918;
+    transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+span {
+    color: #e00918;
+}
+ul {
+    padding: 0;
+}
+hr {
+    width: 100%;
+    height: 1px;
+    background-color: #d9dcdf;
+    border: none;
+    margin: 30px 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; /* ... */
+}
+.button {
+    background-color: #e21725;
+    color: #FFFFFF;
+    padding: 17px 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    float: left;
+    border-radius: 999px;
+    border: 2px solid #e21725;
+}
+.button:hover {
+    background-color: #FFFFFF;
+    color: #e21725;
+    border: 2px solid #e21725;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+/* tab section */
+.tab {
+    text-align: center;
+    margin: -10px 0;
+}
+.tab li {
+    display: inline-block;
+    text-transform: uppercase;
+    color: #808791;
+    font-weight: 700;
+    font-size: 12px;
+    margin: 0 20px;
+}
+.tab li:hover {
+    color: #000000;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+.tab .active {
+    border-bottom: 3px solid #e00918;
+    padding-bottom: 20px;
+    margin-bottom: -20px;
+    color: #000000;
+}
+
+/* main videos section */
+.main-videos h2, h3 {
+    margin: 10px 0;
+}
+.area {
+    position: relative;
+}
+.duration {
+    background-color: #e00918;
+    color: #FFFFFF;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+p.views {
+    color: #343434;
+}
+.video h2 {
+    font-weight: 500;
+    font-size: 1.8em;
+}
+.video h4 {
+    font-weight: 400;
+    margin-top: 12px;
+}
+.video p {
+    margin: 0;
+    padding: 0;
+    color: #757a80;
+    line-height: inherit;
+}
+/* red mask */
+.area:hover .mask {
+    display: block;
+    cursor: pointer;
+    opacity: 100;
+    transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+}
+.vertical-align {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+.mask {
+    position: absolute;
+    background-color: rgba(226, 23, 37, 0.7);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    opacity: 0;
+}
+.mask p {
+    color: #FFFFFF;
+    font-weight: 700;
+}
+.mask i {
+    font-size: 80px;
+    color: #FFFFFF;
+}
+
+/* mini videos */
+.mini {
+    list-style: none;
+}
+.mini h4 {
+    font-size: 16px;
+    margin-top: 13px;
+}
+.mini p {
+    font-size: 12px;
+    margin-top: 6px;
+}
+.mini i {
+    font-size: 60px;
+}
+.mini .duration {
+    padding: 8px 20px;
+}
+.mini .mask p {
+    display: none; /* no text */
+}
+li.mini:nth-child(2) {
+    margin-bottom: 10px;
+}
+.single-channel .video p {
+    margin-top: 7px;
+}
+
+/* Channel Info section */
+.channel-bio hr {
+    margin: 20px 0;
+}
+.channel-bio p {
+    /*text-align: justify;*/
+}
+.channel-bio .button {
+    margin-top: 10px;
+}
+.channel-name {
+    font-weight: 600;
+    font-size: 16px;
+}
+.channel-name img {
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* */

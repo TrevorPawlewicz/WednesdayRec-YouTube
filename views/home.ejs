@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>YouTube</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,500,600,700,900">
+    <!-- <link rel="stylesheet" href="css/animate.css"> -->
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/sidebar-menu.css">
+    <link rel="stylesheet" href="/css/footer.css">
+</head>
+
+<body>
+
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar">
+            <a href="#" id="menu-close" class="pull-right toggle">
+                <img src="images/X.png"/>
+            </a>
+            <ul>
+                <li class="title">Menu</li>
+                <li><a href="#"><i class="fa fa-eye"></i> What to Watch</a></li>
+                <li><a href="#"><i class="fa fa-user"></i> My Channel</a></li>
+                <li><a href="#"><i class="fa fa-clock-o"></i> History</a></li>
+                <li><a href="#"><i class="fa fa-repeat"></i> Watch Later</a></li>
+            </ul>
+            <ul id="playlist">
+                <li class="title">Playlists</li>
+                <li><a href="#"><i class="fa fa-headphones"></i> Best of The Little Heroes
+                    <p>The Little Heroes</p>
+                </a></li>
+                <li><a href="#"><i class="fa fa-film"></i> Favorite Videos
+                    <p>Check you favorite videos</p>
+                </a></li>
+                <li><a href="#"><i class="fa fa-thumbs-o-up"></i> Linked Videos
+                    <p>Reach all the videos you like</p>
+                </a></li>
+            </ul>
+            <ul id="subs">
+                <li class="title">Subscriptions</li>
+                <li><a href="#"><img src="images/OHP_icon.jpg"></i> One Hundred Paces</a></li>
+                <li><a href="#"><img src="images/FITR_icon.jpg"></i> Fire In The Radio</a></li>
+                <li><a href="#"><img src="images/BG_icon.jpg"></i> The Blues and Greys</a></li>
+            </ul>
+        </ul>
+    </nav> <!-- _______________end sidebar-wrapper________________-->
+
+
+
+
+    <header>
+        <div class="container-fluid"> <!-- container of all elements-->
+            <div class="row"> <!-- arrange the grids -->
+
+                <div class="col-md-2">
+
+                    <a href="#" id="menu-toggle">
+                        <img src="images/menu.png"/>
+                    </a>
+                    <a href="#"><img src="images/logo.png" class="logo"/></a>
+                </div>
+
+                <div class="col-md-5">
+                    <form id="searchBox">
+                        <input type="text" placeholder="Search...">
+                    </form>
+                </div>
+
+                <div class="col-md-5">
+                    <ul id="user-info"> <!-- user-info -->
+                        <li><a href="#" class="button">UPLOAD</a></li>
+
+                        <li>
+                            <ul class="notification">
+                                <li><i class="fa fa-envelope"></i><span>1</span></li>
+                                <li><i class="fa fa-bell"></i><span>10</span></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <img src="images/profile.png"/>
+                            <div>
+                                <p class="username">francois</p>
+                                <p>99 Subscribers</p>
+                                <a href="#">Log Out</a>
+                            </div>
+                        </li>
+                    </ul> <!-- end user-info -->
+                </div>
+
+            </div> <!-- end row -->
+        </div> <!-- end contain-fluid -->
+    </header> <!-- _______________________end header____________________ -->
+
+
+
+    <hr>
+
+
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <ul class="tab"> <!-- ______tab section______-->
+                <li class="active">Home</li>
+                <li>Trending</li>
+                <li>Subscriptions</li>
+            </ul>
+
+            <hr>
+
+            <div class="main-videos"> <!-- ______main-videos section______ -->
+                <div class="col-md-4 video"> <!-- main video 1 -->
+                    <div class="area">
+                        <a href="https://youtu.be/4LSSFyDX8qo">
+                            <div class="mask">
+                                <div class="vertical-align">
+                                    <i class="fa fa-play-circle"></i>
+                                    <p>Play Now</p>
+                                </div>
+                            </div> <!-- end mask -->
+                            <img src="images/DSC_0585TLH_makingOf_ThankYou.JPG" alt="video" class="img-responsive"/>
+                            <span class="duration">3:39</span>
+                        </a>
+                    </div> <!-- end area -->
+
+                    <h2>The Little Heroes</h2>
+                    <h3>"Thank You" Official video</h3>
+                    <p><span>9 Days Ago</span> By
+                        <a href="http://www.wednesdayrecords.com/">Wednesday Records</a>
+                         - 54,485 Views
+                    </p>
+                </div>  <!-- end col-md-4 -->
+
+                <div class="col-md-4 video"> <!-- main video 2-->
+                    <div class="area">
+                        <a href="https://youtu.be/IvcOi8C6SrA">
+                            <div class="mask">
+                                <div class="vertical-align">
+                                    <i class="fa fa-play-circle"></i>
+                                    <p>Play Now</p>
+                                </div>
+                            </div> <!-- end mask -->
+
+                            <img src="images/DSC_0791_TLH_makingOf_ThankYou.JPG" alt="video" class="img-responsive"/>
+                            <span class="duration">7:05</span>
+                        </a>
+                    </div> <!-- end area -->
+
+                    <h2>The Little Heroes</h2>
+                    <h3>The Making of "Thank You"</h3>
+                    <p><span>2 Days Ago</span> By
+                        <a href="http://www.wednesdayrecords.com/">Wednesday Records</a>
+                        - 1,100 Views
+                    </p>
+                </div>  <!-- end col-md-4 -->
+
+
+                <div class="mini"> <!-- small videos on right side -->
+
+                    <li class="col-md-2 video mini"> <!-- mini-video 1-->
+                        <div class="area">
+                            <a href="https://youtu.be/jb0fcI2XU9I">
+                                <div class="mask">
+                                    <div class="vertical-align">
+                                        <i class="fa fa-play-circle"></i>
+                                        <p>Play Now</p>
+                                    </div>
+                                </div> <!-- end mask -->
+
+                                <img src="images/L1150179-lightroom_theWeight_liveOutside.jpg" alt="video" class="img-responsive"/>
+                                <span class="duration">3:14</span>
+                            </a>
+                        </div> <!-- end area -->
+
+                        <h4>The Little Heroes</h4>
+                        <h6>"The Weight" (acoustic live)</h6>
+                        <p><span>2 weeks ago</span> by
+                            <a href="http://www.wednesdayrecords.com/"> Wednesday Records</a>
+                        </p>
+                        <p>673 Views</p>
+                    </li> <!-- end mini-video 1 -->
+
+                    <li class="col-md-2 video mini"> <!-- mini-video 2-->
+                        <div class="area">
+                            <a href="https://youtu.be/bOyvbaOP4Iw">
+                                <div class="mask">
+                                    <div class="vertical-align">
+                                        <i class="fa fa-play-circle"></i>
+                                        <p>Play Now</p>
+                                    </div>
+                                </div> <!-- end mask -->
+
+                                <img src="images/IMG_5102_TLH_live.JPG" alt="video" class="img-responsive"/>
+                                <span class="duration">4:22</span>
+                            </a>
+                        </div> <!-- end area -->
+
+                        <h4>The Little Heroes</h4>
+                        <h6>"Say I'll Be Gone" (live)</h6>
+                        <p><span>2 years ago</span> by
+                            <a href="http://www.wednesdayrecords.com/"> Wednesday Records</a>
+                        </p>
+                        <p>3,679 Views</p>
+                    </li> <!-- end mini-video 2 -->
+
+                    <li class="col-md-2 video mini"> <!-- mini-video 3-->
+                        <div class="area">
+                            <a href="https://youtu.be/Nmi9MpU88TA">
+                                <div class="mask">
+                                    <div class="vertical-align">
+                                        <i class="fa fa-play-circle"></i>
+                                        <p>Play Now</p>
+                                    </div>
+                                </div> <!-- end mask -->
+
+                                <img src="images/TLH_Roost.jpg" alt="video" class="img-responsive"/>
+                                <span class="duration">3:13</span>
+                            </a>
+                        </div> <!-- end area -->
+
+                        <h4>The Little Heroes</h4>
+                        <h6>"We All Get To An End" (live)</h6>
+                        <p><span>8 years ago</span> by
+                            <a href="http://www.wednesdayrecords.com/"> Wednesday Records</a>
+                        </p>
+                        <p>3,679 Views</p>
+                    </li> <!-- end mini-video 3 -->
+
+                    <li class="col-md-2 mini video"> <!-- mini-video 4-->
+                        <div class="area">
+                            <a href="https://www.youtube.com/playlist?list=PLd7J7W69d2_pBrDHHyXyrCZG-HG21z7Vr">
+                                <div class="mask">
+                                    <div class="vertical-align">
+                                        <i class="fa fa-play-circle"></i>
+                                        <p>Play Now</p>
+                                    </div>
+                                </div> <!-- end mask -->
+
+                                <img src="images/TLH_cinematic_album.jpg" alt="video" class="img-responsive"/>
+                                <span class="duration">35:03</span>
+                            </a>
+                        </div> <!-- end area -->
+
+                        <h4>The Little Heroes</h4>
+                        <h6>Cinematic Americana album playist</h6>
+                        <p><span>4 months ago</span> by
+                            <a href="http://www.wednesdayrecords.com/"> Wednesday Records</a>
+                        </p>
+                        <p>3,679 Views</p>
+                    </li> <!-- end mini-video 4 -->
+
+                </div> <!-- end small videos-->
+
+            </div> <!-- ______________end main-videos section____________ -->
+
+        </div> <!-- end row -->
+    </div>  <!-- _____________________end contain-fluid____________________ -->
+
+
+
+    <hr>
+
+
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="single-channel">
+
+                <div class="col-md-3 channel-bio">
+                    <div class="channel-name">
+                        <img src="images/OHP_icon.jpg"/>One Hundred Paces
+                    </div>
+                    <hr>
+                    <p>Primarily a solo project for singer/guitarist James Lombardo,
+                        One Hundred Paces formed in the winter of 2010 after Lombardo's
+                        band <a href="http://www.wednesdayrecords.com/the-little-heroes/">The Little Heroes</a>
+                        were on hiatus.
+                    </p>
+                    <a href="#" class="button">More Videos</a>
+                </div> <!-- end channel-bio -->
+
+                <div class="col-md-3 video">
+                    <div class="area">
+                        <a href="https://youtu.be/5y0gu7-5mfU?list=PLXWrAjCKfSI_D8SxCgniEKovgzsKXceIr">
+                            <div class="mask">
+                                <div class="vertical-align">
+                                    <i class="fa fa-play-circle"></i>
+                                    <p>Play Now</p>
+                                </div>
+                            </div> <!-- end mask -->
+
+                            <img src="images/OHP_versionsVid.jpg" alt="video" class="img-responsive"/>
+                            <span class="duration">4:36</span>
+                        </a>
+                    </div> <!-- end area -->
+
+                    <h4>'Versions of you' Official music video</h4>
+                    <p><span>1 month ago</span> by
+                        <a href="http://www.wednesdayrecords.com/"> Wednesday Records</a>
+                    </p>
+                    <p class="views">678 Views</p>
+                </div> <!-- col-md-3 video -->
+
+                <div class="col-md-3 video">
+                    <div class="area">
+                        <a href="https://youtu.be/ARjT4KYdULA">
+                            <div class="mask">
+                                <div class="vertical-align">
+                                    <i class="fa fa-play-circle"></i>
+                                    <p>Play Now</p>
+                                </div>
+                            </div> <!-- end mask -->
+                            </a>
+                            <img src="images/OHP_theDistance_cover.jpg" alt="video" class="img-responsive"/>
+                            <span class="duration">3:20</span>
+                        </a>
+                    </div> <!-- end area -->
+
+                    <h4>The Reckoning</h4>
+                    <p><span>2 months ago</span> by
+                        <a href="http://www.wednesdayrecords.com/"> Wednesday Records</a>
+                    </p>
+                    <p class="views">628 Views</p>
+                </div> <!-- col-md-3 video -->
+
+                <div class="col-md-3 video">
+                    <div class="area">
+                        <a href="https://youtu.be/or_hYMFVOO8">
+                            <div class="mask">
+                                <div class="vertical-align">
+                                    <i class="fa fa-play-circle"></i>
+                                    <p>Play Now</p>
+                                </div>
+                            </div> <!-- end mask -->
+
+                            <img src="images/OHP_rise_fall.jpg" alt="video" class="img-responsive"/>
+                            <span class="duration">3:35</span>
+                        </a>
+                    </div> <!-- end area -->
+
+                    <h4>The Rise and Fall</h4>
+                    <p><span>8 months ago</span> by
+                        <a href="http://www.wednesdayrecords.com/"> Wednesday Records</a>
+                    </p>
+                    <p class="views">478 Views</p>
+                </div> <!-- col-md-3 video -->
+
+            </div> <!-- end single-channel -->
+
+        </div> <!-- end row -->
+    </div> <!-- _____________________end contain-fluid____________________ -->
+
+
+
+    <hr>
+
+
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="single-channel">
+
+                <div class="col-md-3 channel-bio">
+                    <div class="channel-name">
+                        <img src="images/FITR_icon.jpg"/>Fire In The Radio
+                    </div>
+                    <hr>
+                    <p>Fire in the Radio hails from Philadelphia, Pennsylvania.
+                        The band's sound is unique, but has been appropriately
+                        described as an amalgamation of Jawbreaker, The Promise Ring,
+                        Weezer, and Superchunk.
+                    </p>
+                    <a href="#" class="button">More Videos</a>
+                </div> <!-- end channel-bio -->
+
+                <div class="col-md-3 video">
+                    <div class="area">
+                        <a href="https://youtu.be/hlWs0A2V4z0">
+                            <div class="mask">
+                                <div class="vertical-align">
+                                    <i class="fa fa-play-circle"></i>
+                                    <p>Play Now</p>
+                                </div>
+                            </div> <!-- end mask -->
+
+                            <img src="images/FITR_trailer.jpg" alt="video" class="img-responsive"/>
+                            <span class="duration">1:07</span>
+                        </a>
+                    </div> <!-- end area -->
+
+                    <h4>"Telemetry" Trailer</h4>
+                    <p><span>2 years ago</span> by
+                        <a href="http://www.wednesdayrecords.com/"> Wednesday Records</a>
+                    </p>
+                    <p class="views">3,488 Views</p>
+                </div> <!-- col-md-3 video -->
+
+                <div class="col-md-3 video">
+                    <div class="area">
+                        <a href="https://youtu.be/QBX3nPpb1yY">
+                            <div class="mask">
+                                <div class="vertical-align">
+                                    <i class="fa fa-play-circle"></i>
+                                    <p>Play Now</p>
+                                </div>
+                            </div> <!-- end mask -->
+
+                            <img src="images/FITR_crickets.jpg" alt="video" class="img-responsive"/>
+                            <span class="duration">4:00</span>
+                        </a>
+                    </div> <!-- end area -->
+
+                    <h4>Episode 401 "Crickets"</h4>
+                    <p><span>2 years ago</span> by
+                        <a href="http://www.wednesdayrecords.com/"> Wednesday Records</a>
+                    </p>
+                    <p class="views">6,588 Views</p>
+                </div> <!-- col-md-3 video -->
+
+                <div class="col-md-3 video">
+                    <div class="area">
+                        <a href="https://youtu.be/y1gSAu9ycQs?list=PLv67Ev8LGzR5lwT_Ge4OyRwBo3o1yqtJg">
+                            <div class="mask">
+                                <div class="vertical-align">
+                                    <i class="fa fa-play-circle"></i>
+                                    <p>Play Now</p>
+                                </div>
+                            </div> <!-- end mask -->
+
+                            <img src="images/FITR_telementry.jpg" alt="video" class="img-responsive"/>
+                            <span class="duration">33:03</span>
+                        </a>
+                    </div> <!-- end area -->
+
+                    <h4>Telemetry album playlist</h4>
+                    <p><span>2 years ago</span> by
+                        <a href="http://www.wednesdayrecords.com/"> Wednesday Records</a>
+                    </p>
+                    <p class="views">6,588 Views</p>
+                </div> <!-- col-md-3 video -->
+
+            </div> <!-- end single-channel -->
+
+        </div> <!-- end row -->
+    </div> <!-- _____________________end contain-fluid____________________ -->
+
+
+
+    <hr>
+
+
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="single-channel">
+
+                <div class="col-md-3 channel-bio">
+                    <div class="channel-name">
+                        <img src="images/BG_icon.jpg"/>The Blues and Greys
+                    </div>
+                    <hr>
+                    <p>Hailing from Santa Barbara, California, The Blues and Greys infuse
+                        indie rock with electronic elements to create a dark pop backdrop
+                        over which the unique and ethereal voice of front woman
+                        Lindsey Waldon shines.
+                    </p>
+                    <a href="#" class="button">More Videos</a>
+                </div> <!-- end channel-bio -->
+
+                <div class="col-md-3 video">
+                    <div class="area">
+                        <a href="https://youtu.be/wb48yzXN0Ss">
+                            <div class="mask">
+                                <div class="vertical-align">
+                                    <i class="fa fa-play-circle"></i>
+                                    <p>Play Now</p>
+                                </div>
+                            </div> <!-- end mask -->
+
+                            <img src="images/BG_secrets.jpg" alt="video" class="img-responsive"/>
+                            <span class="duration">3:33</span>
+                        </a>
+                    </div> <!-- end area -->
+
+                    <h4>Secrets to Shadows (Live)</h4>
+                    <p><span>4 years ago</span> by
+                        <a href="http://www.wednesdayrecords.com/"> Wednesday Records</a>
+                    </p>
+                    <p class="views">2,315 Views</p>
+                </div> <!-- col-md-3 video -->
+
+                <div class="col-md-3 video">
+                    <div class="area">
+                        <a href="https://youtu.be/2PK2G6E31fg">
+                            <div class="mask">
+                                <div class="vertical-align">
+                                    <i class="fa fa-play-circle"></i>
+                                    <p>Play Now</p>
+                                </div>
+                            </div> <!-- end mask -->
+
+                            <img src="images/BG_brightLights.jpg" alt="video" class="img-responsive"/>
+                            <span class="duration">4:01</span>
+                        </a>
+                    </div> <!-- end area -->
+
+                    <h4>Bright Lights (Live at 92.9 KJEE)</h4>
+                    <p><span>3 years ago</span> by
+                        <a href="http://www.wednesdayrecords.com/"> Wednesday Records</a>
+                    </p>
+                    <p class="views">1,110 Views</p>
+                </div> <!-- col-md-3 video -->
+
+                <div class="col-md-3 video">
+                    <div class="area">
+                        <a href="https://youtu.be/4BwxQz5MLNg">
+                            <div class="mask">
+                                <div class="vertical-align">
+                                    <i class="fa fa-play-circle"></i>
+                                    <p>Play Now</p>
+                                </div>
+                            </div> <!-- end mask -->
+
+                            <img src="images/BG_blackSpring.jpg" alt="video" class="img-responsive"/>
+                            <span class="duration">3:12</span>
+                        </a>
+                    </div> <!-- end area -->
+
+                    <h4>Black Spring (Live at 92.9 KJEE)</h4>
+                    <p><span>2 years ago</span> by
+                        <a href="http://www.wednesdayrecords.com/"> Wednesday Records</a>
+                    </p>
+                    <p class="views">444 Views</p>
+                </div> <!-- col-md-3 video -->
+
+            </div> <!-- end single-channel -->
+
+        </div> <!-- end row -->
+    </div> <!-- _____________________end contain-fluid____________________ -->
+
+
+
+
+    <hr>
+
+
+
+    <footer>
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Press & Blog</a></li>
+            <li><a href="#">Copyrights</a></li>
+            <li><a href="#">Creators & Partners</a></li>
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Developers</a></li>
+        </ul>
+
+        <ul>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Policy & Safety</a></li>
+            <li><a href="#">Send Feedback</a></li>
+            <li><a href="#">Try Something New</a></li>
+        </ul>
+
+        <h4>Copyright &copy; 2017 YouTube Inc. along with <b>TrevDev</b></h4>
+    </footer> <!-- end footer -->
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/sidebar-menu.js"></script>
+</body>
+</html>
